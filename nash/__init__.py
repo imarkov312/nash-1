@@ -1,6 +1,7 @@
 import numpy as np
 from scipy.optimize import linprog
 
+
 def nash_equlibrium(a):
     m, n = a.shape 
     
