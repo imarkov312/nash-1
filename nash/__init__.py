@@ -1,7 +1,5 @@
 import numpy as np
 from scipy.optimize import linprog
-import matplotlib.pyplot as plt
-import unittest
 
 def nash_equlibrium(a):
     m, n = a.shape 
