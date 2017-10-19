@@ -5,7 +5,7 @@ import nash
 class TestNashEquilibrium(TestCase):
     def test_answers(self):
         v, p, q = nash.nash_equlibrium(np.array([[1, 4], [3, 2]]))
-        self.assertAlmostEqual(v, 2.5)
+        np.assertAlmostEqual(v, 2.5)
         np.testing.assert_array_almost_equal([0.25, 0.75], p)
         np.testing.assert_array_almost_equal([0.5, 0.5], q)
     def another_test(self):
