@@ -8,4 +8,6 @@ setup(name='nash',
       author_email='flyingcircus@example.com',
       license='MIT',
       packages=['nash'],
+      test_suite='nose.collector',
+      tests_require=['nose', 'nose-cover3'],
       zip_safe=False)
