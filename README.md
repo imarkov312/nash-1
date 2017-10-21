@@ -14,8 +14,9 @@
 
 ## Инструкция по запуску
 Решение задание реализовано в виде пакета **nash**, который находится в папке
-
-```submissions/task1/blokhina-smirnov```
+```
+submissions/task1/blokhina-smirnov
+```
 
 
 > From this repository you can download package _**nash**_.
