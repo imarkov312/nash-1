@@ -17,12 +17,13 @@
 ```
 submissions/task1/blokhina-smirnov
 ```
+
 Данный пакет содержит следующие файлы: 
-|   |   |   |   |   |
-|---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+* Task1.ipynb файл, который содержит функцию nash_equlibrium(), функцию show_res() и 3 примера работы прграммы. 
+* MANIFEST.in необходим для включения в пакет файлов с расширением не .py  
+* setup.py необходим дл яустановки пакета
+* папка nash содержит  
+
 
 > From this repository you can download package _**nash**_.
 > There is a function in the package called **nash_equilibrium** which solves antagonistic matrix game
