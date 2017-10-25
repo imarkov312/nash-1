@@ -21,10 +21,6 @@ submissions/task1/blokhina-smirnov
 ```
 pip install git+git://github.com/smvlx/nash
 ```
-### Unit-тесты для функции nash_equilibrium
-Для проверки корректности работы функции были написаны несколько unit-тестов, которые находятся в файле ```/nash/nash/tests/test_nash_equilibrium.py```.
-
-Тесты можно запустить либо находясь в папке ```/nash``` с помощью команды ```python setup.py test```, либо, находясь в папке ```/nash/nash``` с помощью команды ```nosetests tests```.
 
 ## **Описание файлов**
 Данный пакет содержит следующие файлы: 
@@ -67,4 +63,8 @@ include Task1.ipynb
 В данной папке содержатся:
   - файл __init__.py, в котором содержится функция nash_equilibrium()
   - папка tests, содержащая unit-тесты для функции nash_equilibrium()
-  
+ 
+### Unit-тесты для функции nash_equilibrium
+Для проверки корректности работы функции были написаны несколько unit-тестов, которые находятся в файле ```/nash/nash/tests/test_nash_equilibrium.py```.
+
+Тесты можно запустить либо находясь в папке ```/nash``` с помощью команды ```python setup.py test```, либо, находясь в папке ```/nash/nash``` с помощью команды ```nosetests tests```.
