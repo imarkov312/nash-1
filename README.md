@@ -17,6 +17,14 @@
 ```
 submissions/task1/blokhina-smirnov
 ```
+Данный пакет можно установить используя терминал, с помощью команды _**pip**_:
+```
+pip install git+git://github.com/smvlx/nash
+```
+### Unit-тесты для функции nash_equilibrium
+Для проверки корректности работы функции были написаны несколько unit-тестов, которые находятся в файле ```/nash/nash/tests/test_nash_equilibrium.py```.
+Тесты можно запустить либо находясь в папке ```/nash``` с помощью команды ```python setup.py test```, либо, находясь в папке ```/nash/nash``` с помощью команды ```nosetests tests```
+
 ## **Описание файлов**
 Данный пакет содержит следующие файлы: 
 * Task1.ipynb файл, который содержит функцию nash_equlibrium(), функцию show_res() и 3 примера работы прграммы. 
@@ -46,11 +54,5 @@ submissions/task1/blokhina-smirnov
 - show() визуализация результата построения графика
 
 
-> From this repository you can download package _**nash**_.
-> There is a function in the package called **nash_equilibrium** which solves antagonistic matrix game
 
 
-> You can download this package using _**pip**_ :
-```
-pip install git+git://github.com/smvlx/nash
-```
